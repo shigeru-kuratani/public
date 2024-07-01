@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------------------------------------------------------
+ base setting
+----------------------------------------------------------*/
+body {
+	width: 100%;
+	background-color: #fff;
+	vertical-align : top;
+	font-family : Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Osaka, sans-serif;
+	font-size: 95%;
+	line-height: 1.5em;
+}
+
+a:link {
+	color: #00a;
+}
+a:visited {
+	color: #066;
+}
+a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+a:active {
+
+	color: #900;
+	text-decoration: underline;
+}
+
+img,object {
+	border: 0;
+	vertical-align: bottom;
+}
+
+/*---------------------------------------------------------
+ header
+----------------------------------------------------------*/
+header {
+	width: 100%;
+	height: 600px;
+	/*margin-top: 50px;*/
+	background: url(../images/bg_main.jpg) top left no-repeat;
+	background-size: cover;
+}
+
+header #headerInner {
+	width: 1000px;
+	margin: 0px auto;
+	overflow: auto;
+	position: relative;
+}
+
+header #headerInner #title {
+	width: 400px;
+	height: 400px;
+	margin: 100px auto;
+	background: url(../images/bg_title.png) top center no-repeat;
+	background-size: cover;
+}
+
+header #headerInner #title h1 {
+	padding-top: 130px;
+	font-size: 220%;
+	font-weight: normal;
+	text-align: center;
+	font-family : Helvetica, sans-serif;
+}
+
+header #headerInner #title p.desc {
+	width: 320px;
+	margin: 20px auto;
+}
+
+header #headerInner #speechBubble {
+	position: absolute;
+	top: 50px;
+	left: 650px;
+	width: 100px;
+	height: 100px;
+	padding-top: 15px;
+	background: url(../images/bg_supeech_bubble.png) top left no-repeat;
+	background-size: contain;
+	text-align: center;
+}
+
+header #headerInner #speechBubble a {
+	text-decoration: none;
+	color: #000;
+}
+
+header #headerInner #speechBubble a:hover {
+	color: #ff7f00;
+}
+
+header #headerInner #contact {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	display: block;
+	padding: 7px 20px;
+	background-color: rgb(255, 255, 255, 0.7);
+	text-decoration: none;
+	color: 000;
+}
+
+header #headerInner #contact:hover {
+	color: #ff7f00;
+}
+
+/*---------------------------------------------------------
+ contents
+----------------------------------------------------------*/
+#contentsWrapper {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+#contentsWrapper #contentsInner {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#contentsWrapper #contentsInner h2 {
+	margin-top: 35px;
+	padding-left: 25px;
+	float: left;
+	font-weight: normal;
+	font-size: 125%;
+}
+
+#contentsWrapper #contentsInner .contents {
+	width: 100%;
+	float: left;
+}
+
+#contentsWrapper #contentsInner .contents section {
+	width: 260px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding: 20px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+#contentsWrapper #contentsInner .contents section h3 {
+	margin-top: 0px;
+	font-size: 110%;
+}
+
+#contentsWrapper #contentsInner .contents section h3 .java {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: -13px;
+	background: url(../images/ico_java.png) top left no-repeat;
+	background-size: contain;
+}
+
+#contentsWrapper #contentsInner .contents section h3 .cs {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: -13px;
+	background: url(../images/ico_cs.png) top left no-repeat;
+	background-size: contain;
+}
+
+#contentsWrapper #contentsInner .contents section h3 .perl {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: -13px;
+	background: url(../images/ico_perl.png) top left no-repeat;
+	background-size: contain;
+}
+
+#contentsWrapper #contentsInner .contents section h3 .php {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: -13px;
+	background: url(../images/ico_php.png) top left no-repeat;
+	background-size: contain;
+}
+
+#contentsWrapper #contentsInner .contents section h3 .js {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	top: -13px;
+	background: url(../images/ico_js.png) top left no-repeat;
+	background-size: contain;
+}
+
+#contentsWrapper #contentsInner .contents section p {
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
+	font-size: 90%;
+	word-break:break-all;
+}
+
+#contentsWrapper #contentsInner .contents section p a {
+	border-bottom: 1px dotted #000;
+	text-decoration: none;
+	color: #000;
+}
+
+#contentsWrapper #contentsInner .contents section p a:hover {
+	border-bottom: 1px dotted #999;
+	color: #999;
+}
+
+#contentsWrapper #contentsInner .contents section img {
+	margin: 10px 0px;
+	clear: both;
+}
+
+/*---------------------------------------------------------
+ aside
+----------------------------------------------------------*/
+#contentsWrapper #contentsInner aside {
+	width: 280px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	float: right;
+	background-color: #333;
+}
+
+#contentsWrapper #contentsInner aside ul {
+	list-style-type: none;
+}
+
+#contentsWrapper #contentsInner aside ul li a {
+	color: #b2b2b2;
+	text-decoration: none;
+}
+
+#contentsWrapper #contentsInner aside ul li a:hover {
+	color: #ff7f00;
+}
+
+#contentsWrapper #contentsInner aside ul.sub {
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+/*---------------------------------------------------------
+ footer
+----------------------------------------------------------*/
+footer {
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+	text-align: center;
+}
+
+/*----------------------------------------------------------
+ profile setting
+----------------------------------------------------------*/
+#profileContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	filter: alpha(opacity=0);
+	opacity: 0.00;
+}
+
+#profile {
+	width: 700px;
+	padding: 25px;
+	position: absolute;
+	background-color: #fff;
+	border: 10px solid #e6e6e6;
+}
+
+#profile h2 {
+	margin-top: 0px;
+	/*padding-left: 8px;*/
+	/*border-left: 5px solid #afeeee;*/
+	font-weight: normal;
+	font-size: 150%;
+	text-align: center;
+}
+
+#profile #close {
+	position: absolute;
+	top: 20px;
+	left: 700px;
+	font-size: 250%;
+	text-decoration: none;
+	color: #000;
+}
+
+#profile #close:hover {
+	color: #000;
+}
+
+#profile #photo {
+	width: 250px;
+	margin-top: 20px;
+	float: left;
+	background-color: #fff;
+	/*border: 1px solid #ccc;*/
+	text-align: center;
+}
+
+#profile #photo p {
+	margin-top: 8px;
+	padding: 0px 10px;
+	text-align: left;
+	line-height: 1.35em;
+	font-size: 85%;
+}
+
+#profile #photo p a {
+	text-decoration: none;
+	color: #000;
+}
+
+#profile #photo p a:hover {
+	color: #ff7f00;
+}
+
+#profile #photo p.desc {
+	margin-top: 10px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#profile #photo p.desc .name {
+	font-size: 150%;
+	/*color: #333;*/
+}
+
+#profile #photo p.desc .ruby {
+	/*color: #333;*/
+}
+
+#profile #desc {
+	width: 430px;
+	float: right;
+}
+
+#profile #desc h3 {
+	margin-top: 15px;
+	padding-bottom: 5px; 
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	font-weight: normal;
+	font-size: 125%;
+}
+
+#profile #desc p {
+	margin-bottom: 25px;
+}
+
+#profile #desc dl dt {
+	padding-left: 15px;
+	padding-top: 2px;
+	background: url(../images/bg_allow.gif) center left no-repeat;
+}
+
+#profile #desc dl dd {
+	margin-left: 15px;
+}
+
+

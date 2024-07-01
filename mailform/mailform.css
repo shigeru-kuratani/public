@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------------------------------------------
+mailform setting
+----------------------------------------------------------*/
+#mailformContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	filter: alpha(opacity=0);
+	opacity: 0.00;
+}
+
+#mailform {
+	width: 500px;
+	padding: 25px;
+	position: absolute;
+	background-color: #fff;
+}
+
+#mailform h3 {
+	margin-top: 0px;
+	padding-left: 8px;
+	border-left: 5px solid #999;
+}
+
+#mailform #close {
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	font-size: 250%;
+	text-decoration: none;
+	color: #000;
+}
+
+#mailform #close:hover {
+	color: #000;
+}
+
+#mailform #errorMessage {
+	color: #f00;
+}
+
+#mailform table {
+	width: 500px;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+
+#mailform table th,
+#mailform table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#mailform table th {
+	font-weight: normal;
+	background-color: #e6e6e6;
+}
+
+#mailform table td {
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+#mailform table input,
+#mailform table textarea {
+	font-family : Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Osaka, sans-serif;
+	font-size: 90%;
+}
+
+#mailform table input[type="text"],
+#mailform table textarea {
+	width: 95%;
+}
+
+#mailform table textarea {
+	border-color: #ccc;
+}
+
+#mailform table #content {
+	height: 200px;
+	overflow: auto;
+}
+
+#mailform #button {
+	margin-top: 15px;
+	text-align: center;
+}
+
+#mailform #button a {
+	display: inline-block;
+	width: 70px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #e6e6e6;
+	text-decoration: none;
+	color: #999;
+}
+
+#mailform #button a:hover {
+	background-color: #ccc;
+	color: #fff;
+}
+
+#mailform .warning {
+	color: #f00;
+	font-size: 80%;
+}
+

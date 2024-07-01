@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Shigeru Kuratani .net</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/base.css">
+<script src="./js/jquery-3.4.1.js"></script>
+<script src="./js/base.js"></script>
+<script src="/js/analyze.js"></script>
+<!-- mailform -->
+<link rel="stylesheet" href="./mailform/mailform.css">
+<script src="./mailform/mailform.js"></script>
+</head>
+<body>
+<header>
+	<div id="headerInner">
+		<a id="contact" href="javascript: void(0)">contact</a>
+		<div id="title">
+			<h1>Shigeru Kuratani .net</h1>
+			<p class="desc">
+				このサイトは、Shigeru Kurataniが個人的に開発したアプリケーション、オープンソースソフトウェアへのリンクを掲載したサイトです。<br>
+				<!-- 今後、コンピュータサイエンスに関連する情報も掲載をしていきたいと思っています。 -->
+				アプリケーションも無償で配布・提供しておりますので、是非ご活用ください。
+			</p>
+		</div>
+		<div id="speechBubble">
+			&nbsp;<img src="./images/img_top_photo.png" width="50" height="50" alt="自己紹介写真"><br>
+			&nbsp;<a id="profileButton" href="javascript: void(0)">Owner</a>
+		</div>
+	</div>
+</header>
+<div id="contentsWrapper">
+	<div id="contentsInner">
+		<h2>アプリケーション・オープンソースソフトウェア（OSS）</h2>
+		<div class="contents">
+			<section>
+				<h3>SimpleController4J<span class="java"></span></h3>
+				<p>
+					Java Servlet&JSPの開発を支援するシンプルなフレームワークです。<br>
+					Javaサーブレットにルーティング・データバインディング・アスペクトの機能を追加します。 <br>GPLv3に基づいて配布をしておりますので、自由に改変をしてご使用ください。 <br>
+					<a href="https://sc.skuratani.net" target="_blank">https://sc.skuratani.net</a>
+				</p>
+			</section>
+			<section>
+				<h3>SimpleORM4J<span class="java"></span></h3>
+				<p>
+					Javaアプリケーションの為のシンプルなO/Rマッパです。<br>
+					シンプルなCriteria APIを提供し、簡易な処理でリレーショナルデータベースのデータを Javaオブジェクトして直感的に操作することができます。 <br>GPLv3に基づいて配布をしておりますので、自由に改変をしてご使用ください。 <br>
+					<a href="https://so.skuratani.net" target="_blank">https://so.skuratani.net</a>
+				</p>
+			</section>
+			<!-- <section>
+				<h3>InstantChat<span class="java"></span></h3>
+				<p>
+					WebSocket通信を利用したチャットアプリケーションです。<br>
+					使い捨てのチャットルームを作成して、みんなでチャット楽しむことができます。<br>
+					SpringBoot・jQuery・Bootstrapで構築をしています。<br>
+					気軽にチャットが楽しめるアプリですので、是非ご活用ください。<br>
+					<a href="http://ic.skuratani.net:5000" target="_blank">http://ic.skuratani.net:5000</a>
+				</p>
+			</section> -->
+			<!-- <section>
+				<h3>Tasks<span class="java"></span></h3>
+				<p>
+					JavaFXで実装したタスク管理アプリケーションです。タスク管理に必要な基本的機能を実装しています。<br>
+					アプリケーションの基本的な使用方法は以下のサイトをご参照ください。<br>
+					シンプルに日々のタスクを管理出来るアプリケーションですので、是非ご活用ください。<br>
+					<a href="https://ts.skuratani.net" target="_blank">https://ts.skuratani.net</a>
+				</p>
+			</section> -->
+			<!--
+			<section>
+				<h3>JSimpleToDo<span class="java"></span></h3>
+				<p>
+					JavaのSwingライブラリで実装したシンプルなTODO管理アプリケーションです。Vectorで配布しておりますので、是非ご活用ください。<br>
+					【Vector掲載ページへ】<br>
+					<a href="https://www.vector.co.jp/soft/winnt/personal/se510851.html" target="_blank">Windows版</a>・<a href="https://www.vector.co.jp/soft/mac/personal/se512291.html" target="_blank">Mac版</a>
+				</p>
+			</section>
+			-->
+			<section>
+				<h3>PASSOWRD MAKER<span class="cs"></span></h3>
+				<p>
+					任意のパスワードを生成するアプリケーションです。10文字の英数字パスワードを生成する場合、約84京分の1の精度でパスワードを生成します。 サーバサイド関数はC#で記述しています。<br>
+					<a href="https://pm.skuratani.net" target="_blank">https://pm.skuratani.net</a>
+				</p>
+			</section>
+			<!-- <section>
+				<h3>StickyNote<span class="js"></span></h3>
+				<p>
+					付箋を利用したタスク管理をするためのアプリケーションです。
+					KPTフレームワークのような管理に使用することができます。
+					electron・Reactで構築をしています。<br>
+					OSSとしてGitHubで配布をしていますので、自由に改変をしてご使用ください。<br>
+					<a href="https://sn.skuratani.net/" target="_blank">https://sn.skuratani.net/</a>
+				</p>
+			</section> -->
+			<section>
+				<h3>jQuery BoxScroll<span class="js"></span></h3>
+				<p>
+					jQueryプラグインです。ターゲット要素がウィンドウスクロールに追随するスクリプトの復刻版です。<br>
+					Creative Commonsライセンスにて配布しておりますので、原作者のクレジットを表示することを守れば、改変はもちろん、営利目的での二次利用も可能です。<br>
+					<a href="https://bs.skuratani.net" target="_blank">https://bs.skuratani.net</a>
+				</p>
+			</section>
+			<!--
+			<section>
+				<h3>ChatLight<span class="perl"></span></h3>
+				<p>
+					簡単な操作でチャットが楽しめるWEBアプリケーションです。サーバサイド言語としてPerl、フロントエンドフレームワークとしてBackbone.jsを使用しております。 気軽にチャットが楽しめるアプリですので、是非ご活用ください。<br>
+					<a href="https://cl.skuratani.net" target="_blank">https://cl.skuratani.net</a>
+				</p>
+			</section>
+			-->
+			<section>
+				<h3>SimpleTemplate<span class="php"></span></h3>
+				<p>
+					PHPで記述された「シンプル」かつ「軽量」なテンプレートエンジンです。<br>
+					BSDライセンスにて配布しておりますので、改変および改変後の公開が自由です。また、改変後の公開を必須としませんので、機能拡張し社内テンプレートとしてご使用いただけます。<br>
+					<a href="https://st.skuratani.net" target="_blank">https://st.skuratani.net</a>
+				</p>
+			</section>
+			<section>
+				<h3>SimpleGraph<span class="php"></span></h3>
+				<p>
+					PHPで記述された「シンプル」なグラフライブラリです。SimpleGraphを使用すると、PHPプログラムの配列をライブラリにパラメータとして渡すことで、簡単にグラフを作成することができます。<br>
+					BSDライセンスにて配布しておりますので、改変および改変後の公開が自由です。<br>
+					<a href="https://sg.skuratani.net" target="_blank">https://sg.skuratani.net</a>
+				</p>
+			</section>
+		</div>
+		<!--
+		<h2>コラム・記事・開発関連情報</h2>
+		<div class="contents">
+			<section>
+				<h3>Blog</h3>
+				<p>
+					開発業務に関する雑記です。<br>
+					開発業務を行っている際の気付きや、私個人の意見を記載しております。<br>
+					私個人のログとして記録を残しております。<br>
+					<a href="http://wl.skuratani.net" target="_blank">http://wl.skuratani.net</a>
+				</p>
+			</section>
+		</div>
+		-->
+	</div>
+</div>
+<footer>
+	&copy;Shigeru&nbsp;Kuratani&nbsp;All&nbsp;Rights&nbsp;Reserved.
+</footer>
+
+</body>
+</html>
